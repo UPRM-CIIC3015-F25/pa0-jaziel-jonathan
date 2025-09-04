@@ -69,7 +69,7 @@ screen_width = 500  # Screen width (can be adjusted)
 screen_height = 500  # Screen height (can be adjusted)
 screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption('Pong')  # Set window title
-
+#
 # Colors
 bg_color = pygame.Color('grey12')
 
