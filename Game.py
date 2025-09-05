@@ -71,7 +71,7 @@ screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption('Pong')  # Set window title
 #
 # Colors
-bg_color = pygame.Color('grey12')
+bg_color = pygame.Color('royalblue')
 
 # Game Rectangles (ball and player paddle)
 ball = pygame.Rect(screen_width / 2 - 15, screen_height / 2 - 15, 30, 30)  # Ball (centered)
