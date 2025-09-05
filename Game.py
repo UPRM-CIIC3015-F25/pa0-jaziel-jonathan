@@ -63,13 +63,13 @@ def restart():
 pygame.mixer.pre_init(44100, -16, 1, 1024)
 pygame.init()
 clock = pygame.time.Clock()
-
+#helo
 # Main Window setup
 screen_width = 500  # Screen width (can be adjusted)
 screen_height = 500  # Screen height (can be adjusted)
 screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption('Pong')  # Set window title
-
+#
 # Colors
 bg_color = pygame.Color('grey12')
 
